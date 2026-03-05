@@ -1,0 +1,6 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Chat (Server + Client)" type="CompoundRunConfigurationType">
+    <toRun name="TCPServer" type="Application" />
+    <toRun name="TCPClient" type="Application" />
+  </configuration>
+</component>

@@ -1,0 +1,10 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TCPServer" type="Application" factoryName="Application" singleton="false">
+    <option name="MAIN_CLASS_NAME" value="com.chat.server.TCPServer" />
+    <module name="server" />
+    <option name="VM_PARAMETERS" value="--module-path $PROJECT_DIR$/server/target/lib --add-modules javafx.controls" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

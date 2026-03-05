@@ -1,0 +1,5 @@
+/* Client UI styling */
+.text-area {
+    -fx-font-family: "Monaco", "Consolas", monospace;
+    -fx-font-size: 12px;
+}

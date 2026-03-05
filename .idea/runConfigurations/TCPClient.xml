@@ -1,0 +1,11 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="TCPClient" type="Application" factoryName="Application" singleton="false">
+    <option name="MAIN_CLASS_NAME" value="com.chat.client.TCPClient" />
+    <module name="client" />
+    <option name="PROGRAM_PARAMETERS" value="localhost 3000" />
+    <option name="VM_PARAMETERS" value="--module-path $PROJECT_DIR$/client/target/lib --add-modules javafx.controls" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

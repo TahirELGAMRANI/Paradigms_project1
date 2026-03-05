@@ -1,0 +1,8 @@
+/* Server UI styling */
+.list-view {
+    -fx-font-size: 13px;
+}
+.text-area {
+    -fx-font-family: "Monaco", "Consolas", monospace;
+    -fx-font-size: 12px;
+}

@@ -1,0 +1,23 @@
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+release.properties
+
+# Java
+*.class
+*.jar
+*.war
+*.log
+.DS_Store
+
+# IDE (keep .idea/runConfigurations for IntelliJ)
+.idea/shelf/
+.idea/workspace.xml
+.idea/queries/
+.idea/dataSources/
+.idea/httpRequests/
+
+# Maven wrapper jar (downloaded)
+.mvn/wrapper/maven-wrapper.jar
