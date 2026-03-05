@@ -6,10 +6,12 @@ A real-time **group chat** application built with **Java**, **TCP sockets**, and
 
 ### Group
 
-| Name          | GitHub |
-|---------------|--------|
-| **Hibaac3**   | [github.com/Hibaac3](https://github.com/Hibaac3)   |
-| **Bouthaynaerr** | [github.com/Bouthaynaerr](https://github.com/Bouthaynaerr) |
+| Name |
+|------|
+| **Tahir Elgamrani** |
+| Hiba Aouahchi |
+| Yassmine Najib |
+| Bouthayna Errouhi |
 
 ---
 
@@ -24,6 +26,7 @@ A real-time **group chat** application built with **Java**, **TCP sockets**, and
 - [Build & Run](#build--run)
 - [Configuration](#configuration)
 - [Usage & Commands](#usage--commands)
+- [Multiple clients](#multiple-clients-see-messages-from-both)
 - [Testing the Chat](#testing-the-chat)
 - [Project Structure](#project-structure)
 - [License](#license)
@@ -139,6 +142,18 @@ Or:
 ```
 
 Then enter a username (or leave empty for read-only) and click **Join Chat**.
+
+### Multiple clients (see messages from both)
+
+You can have **several clients** in the same chat; each client sees messages from all the others.
+
+1. **Start the server once** (one terminal or IntelliJ: run **TCPServer**).
+2. **Start the first client**: run **TCPClient** (or `./run-client.sh localhost 3000`). Enter a username (e.g. **Alice**) and click **Join Chat**.
+3. **Start the second client**: run **TCPClient** again (another Run in IntelliJ, or open a new terminal and run the client again). Enter a different username (e.g. **Bob**) and click **Join Chat**.
+4. In **Alice’s window**, type a message and press **SEND**. It appears in Alice’s chat and in **Bob’s window**.
+5. In **Bob’s window**, type a message and send. It appears in Bob’s chat and in **Alice’s window**.
+
+All connected clients share the same chat: every message (except commands like `allUsers`) is broadcast by the server to every other client, so everyone sees everyone’s messages. You can run more than two clients the same way (run the client again for each new user).
 
 ### IntelliJ IDEA
 
