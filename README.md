@@ -4,11 +4,19 @@ A real-time **group chat** application built with **Java**, **TCP sockets**, and
 
 **Repository:** [https://github.com/TahirELGAMRANI/Paradigms_project1](https://github.com/TahirELGAMRANI/Paradigms_project1)
 
+### Group
+
+| Name          | GitHub |
+|---------------|--------|
+| **Hibaac3**   | [github.com/Hibaac3](https://github.com/Hibaac3)   |
+| **Bouthaynaerr** | [github.com/Bouthaynaerr](https://github.com/Bouthaynaerr) |
+
 ---
 
 ## Table of Contents
 
 - [Overview](#overview)
+- [Group](#group)
 - [Features](#features)
 - [Architecture](#architecture)
 - [Technology Stack](#technology-stack)
